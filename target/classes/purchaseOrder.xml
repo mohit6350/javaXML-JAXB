@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<po:purchaseOrder 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance"
+xmlns:po="http://www.quinnox.com/purchaseOrder"
+>
+  <orderItem>
+    <productName>iphone</productName>
+    <manufacturer>Apple</manufacturer>
+    <description>expensive</description>
+    <price>1200</price>
+  </orderItem>
+  <shippingAddress>
+    <addressLine1>civil 2</addressLine1>
+    <addressLine2>near jagdish talkies</addressLine2>
+    <city>damoh</city>
+    <state>Madhya pradesh</state>
+    <country>India</country>
+  </shippingAddress>
+</po:purchaseOrder>

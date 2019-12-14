@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.quinnox.com/purchaseOrder" xmlns:po="http://www.quinnox.com/purchaseOrder">
+
+	<xs:element name="purchaseOrder" type="po:purchaseOrderType" />
+
+	<xs:complexType name="purchaseOrderType">
+		<xs:sequence>
+			<xs:element name="orderItem" type="po:orderItemType" />
+			<xs:element name="shippingAddress" type="po:shippingAddressType" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="orderItemType">
+		<xs:sequence>
+			<xs:element name="productName" type="xs:string" />
+			<xs:element name="manufacturer" type="xs:string" />
+			<xs:element name="description" type="xs:string" />
+			<xs:element name="price" type="xs:float" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="shippingAddressType">
+		<xs:sequence>
+			<xs:element name="addressLine1" type="xs:string" />
+			<xs:element name="addressLine2" type="xs:string" />
+			<xs:element name="city" type="xs:string" />
+			<xs:element name="state" type="xs:string" />
+			<xs:element name="country" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

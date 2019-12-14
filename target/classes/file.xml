@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Student xmlns:ns2="http://www.quinnox.com/student">
+	<name>Mohit Khare</name>
+	<branch>cse</branch>
+	<roll>1233123</roll>
+	<address>
+		<addressLine1>civil 1</addressLine1>
+		<addressLine2>near jagdish talkies</addressLine2>
+		<city>damoh</city>
+		<state>Madhya Pradesh</state>
+	</address>
+</ns2:Student>
